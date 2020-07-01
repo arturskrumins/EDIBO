@@ -1,5 +1,6 @@
 Analysis of windows event logs using pandas dataframe
 
+Problem: Our problem is that we have giant amount of data we need to put in understandable table from computer events.
 
 1.In order to analyse system logs you need to be system administator.
 
