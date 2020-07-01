@@ -1,0 +1,2 @@
+# EDIBO
+EDIBIO_projekta_elektroniska_klade
