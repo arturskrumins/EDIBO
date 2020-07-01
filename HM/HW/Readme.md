@@ -16,3 +16,4 @@ Analysis of windows event logs using pandas dataframe
 
 4.A Data frame is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns.
 
+5.Data is now formed "hopefully" in usable table.
