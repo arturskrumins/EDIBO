@@ -8,6 +8,7 @@ Problem: Our problem is that we have giant amount of data we need to put in unde
 ![image](https://www.faqforge.com/wp-content/uploads/2018/11/word-image-40-768x432.png?ezimgfmt=ng:webp/ngcb1)
 
 Windows event logs are CVS files.
+Save them to convert them.
 
 2.1 System gives XML files and they need to be tranformed into pandas dataframe. 
 
