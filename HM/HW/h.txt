@@ -1,0 +1,194 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  firefox &
+    5  git log --oneline | tr "\r" " > ~/gitlog.csv
+    6  firefox &
+    7  pwd
+    8  ls-a
+    9  Is-a
+   10  pwd
+   11  cd downloads
+   12  cd download
+   13  cd
+   14  cd Downloads
+   15  cd ..
+   16  c:\
+   17  clear
+   18  exit
+   19  VirtualBox --startvm XP
+   20  clear
+   21  history
+   22  pwd
+   23  ls
+   24  cd Public
+   25  ls
+   26  cd ..
+   27  cd Music
+   28  ls
+   29  cd ..
+   30  ls
+   31  cd home
+   32  ls
+   33  ls .
+   34  ls /
+   35  ls /home
+   36  ls /home/
+   37  ls /home/user
+   38  ls
+   39  ls .
+   40  ls ..
+   41  cd .
+   42  ls /home/user/
+   43  ls /home/sc/
+   44  pwd
+   45  ls
+   46  cd Desktop
+   47  pwd
+   48  cd ..
+   49  cd Desktop
+   50  cd .
+   51  ls
+   52  pwd
+   53  history
+   54  ls
+   55  mkdir --help
+   56  mkdir abc
+   57  mkdir ABC
+   58  ls
+   59  mkdir aBC
+   60  mkdir abC
+   61  mkdir Abc
+   62  mkdir ABc
+   63  ls
+   64  mkdir aBc
+   65  mkdir AbC
+   66  ls
+   67  df-m
+   68  df-
+   69  time 
+   70  date
+   71  ls date
+   72  date
+   73  ls -l
+   74  ls -al
+   75  ls -l ABc
+   76  ls -l /home/user/Desktop/
+   77  ls -a
+   78  cd .
+   79  cd 
+   80  cd ..
+   81  cd
+   82  cd /etc
+   83  pwd
+   84  ls
+   85  ls | head
+   86  ls | tail
+   87  ls | head3
+   88  ls | head(3)
+   89  ls | head - 3
+   90  ls | head [3]
+   91  ls | head -c
+   92  ls | head -n
+   93  ls | head -3
+   94  ls | head -n 3
+   95  ls | headcount
+   96  ls | count
+   97  ls -count
+   98  ls | head -n 3 | wc
+   99  ls wc
+  100  ls | wc
+  101  ls | head -n 3 
+  102  ls | head -n 3 | wc -l
+  103  ls | head -n 3 | wc -c
+  104  ls | wc -c
+  105  cd
+  106  ls
+  107  cd Desktop
+  108  ls Desktop
+  109  cd
+  110  ls | wc -c
+  111  ls Desktop/
+  112  cd Desktop
+  113  ls | wc -c
+  114  cd
+  115  ls Desktop/| wc -n
+  116  ls Desktop/| wc -c
+  117  wc --help
+  118  ls Desktop/| wc -m
+  119  ls Desktop/| wc -l
+  120  ls Desktop/| wc -c
+  121  java\
+  122  java
+  123  java -version
+  124  Python
+  125  python
+  126  ls
+  127  cd Desktop
+  128  ls
+  129  ls -a
+  130  cd
+  131  a =123
+  132  a=123
+  133  a
+  134  echo a
+  135  echo Hello
+  136  echo print(a)
+  137  echo $a
+  138  b=Sveiki
+  139  echo $b
+  140  b=Sveiki ggwp
+  141  b="Sveiki labdien"
+  142  echo $b
+  143  c="Hello World"
+  144  echo $c
+  145  echo $b $c
+  146  d=','
+  147  echo $b $d $c
+  148  echo $b,$c
+  149  echo $b,$c!
+  150  echo $b,$cecho $b,$c!!
+  151  echo $b,$cecho $b,$c! date
+  152  echo date
+  153  echo $date
+  154  echo %date
+  155  k=date
+  156  echo $k
+  157  echo k
+  158  d=date|echo $d
+  159  l=date|echo $l
+  160  date
+  161  $l
+  162  echo 'date'
+  163  echo "date"
+  164  echo `date`
+  165  echo $a 
+  166  z=44
+  167  echo $z
+  168  echo $(z+a)
+  169  echo $z+$a
+  170  echo `$z+$a`
+  171  y=a+z
+  172  echo $y
+  173  y=$a+$z
+  174  echo $y
+  175  let y=$a+$z
+  176  echo $y
+  177  echo let y=$a+$z
+  178  echo let $a+$z
+  179  echo let($a+$z)
+  180  pwd
+  181  ls
+  182  echo $(($a+$b))
+  183  echo $(($a+$z))
+  184  echo $(($a+$z)) EUR > a.text
+  185  ls
+  186  ls -l a.text
+  187  cat a.txt
+  188  cat a.text
+  189  date
+  190  history
+  191  history>h.txt
+  192* 
+  193  history >h.txt]
+  194  history >h.txt
