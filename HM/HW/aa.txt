@@ -1,0 +1,107 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd ../../
+    4  ls -la
+    5  pwd
+    6  echo $user
+    7  echo $USER
+    8  echo $HOME
+    9  pwd
+   10  date
+   11  cd /
+   12  echo $PS1
+   13  PS1=$
+   14  PS1=$ 
+   15  PS1= $ 
+   16  PS1=W
+   17  PS1= $ 
+   18  PS1=$
+   19  PS1=prompts
+   20  jkkk
+   21  PS1=>>
+   22  PS1=">>"
+   23  kkk
+   24* PS1="
+   25  PS1=user@epk428-6:/
+   26  PS1=user@epk428~6: /
+   27  pwd
+   28  ">>"
+   29  PS1=">>"
+   30  cd
+   31  pwd
+   32  ls Desktop
+   33  ls Desktop/
+   34  pwd
+   35  nano git-upload
+   36  pico
+   37  pwd
+   38  whereis pico
+   39  pwd
+   40  ls -l /user/bin/
+   41  ls -l /usr/bin/
+   42  ls -l /usr/bin/ | wc -l
+   43  ls -l /usr/bin/pico
+   44  ls -l /etc/alternatives/pico
+   45  ls -l /bin/nano
+   46  pws
+   47  pwd
+   48  vim
+   49  vim 01.sh
+   50  ls -l
+   51  ls -l 01.sh
+   52  wc 01.sh
+   53  chmod +x 01.sh 
+   54  ls -l 01.sh
+   55  vim .
+   56  mc
+   57  pwd
+   58  ls 01.sh
+   59  ./01.sh
+   60  vim 01.sh
+   61  ./01.sh
+   62  vim 01.sh
+   63  ./01.sh
+   64  vim 01.sh
+   65  ./01.sh
+   66  vim 01.sh
+   67  ./01.sh
+   68  vim 01.sh
+   69  ./01.sh
+   70  vim 01.sh
+   71  ./01.sh
+   72  vim 01.sh
+   73  ./01.sh
+   74  vim 01.sh
+   75  ./01.sh
+   76  vim 01.sh
+   77  ./01.sh
+   78  vim 01.sh
+   79  ./01.sh
+   80  vim 01.sh
+   81  ./01.sh
+   82  time ./01.sh
+   83  vim 01.sh
+   84  ./01.sh
+   85  time ./01.sh
+   86  vim 01.sh
+   87  for i in {0..5}; do echo "$i*$i";done
+   88  for i in {0..5}; do echo "$i**2";done
+   89  for i in {0..5}; do echo "$i^2";done
+   90  for i in {0..5}; do echo (("$i^2"));done
+   91  for i in {0..5}; do echo $((i^2));done
+   92  for i in {0..5}; do echo " $((i^2))" ;done
+   93  for i in {0..5}; do echo "$i " ;done
+   94  for i in {0..5}; do echo "$i" $i^i  ;done
+   95  for i in {0..5}; do echo "$i" $((i*i))  ;done
+   96  for i in {0..5}; do echo "$i" $((i**i))  ;done
+   97  ./01.sh
+   98  for i in {0..5}; do echo "$i" $((i**i))  ;done
+   99  git clone https://github.com/arturskrumins/EDIBO
+  100  cd EDIBO
+  101  ls
+  102  cd
+  103  ls
+  104  cd Documents
+  105  ls
+  106  cd
+  107  history > aa.txt
