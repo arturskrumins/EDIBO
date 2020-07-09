@@ -1,9 +1,9 @@
 # EDIBO
-EDIBIO projekta elektroniska klade
+EDIBIO projekta elektroniskā klade
 
 Mans pirmais ieraksts
 
-[Formatesanas piemeri githuba](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
+[Formatēšanas piemēri githubā](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 Bold	** ** or __ __	command/control + b	**This is bold text**	This is bold text
 
