@@ -1,0 +1,16 @@
+a = 33
+b = 31
+d = {'balons':'baloon' , 'zale':'grass'}
+
+
+if b > a:
+  d['bumba'] = ('ball')
+  print("Ierakstam dictionary papildu rindu")
+  print(d)
+elif a > b:
+  d.pop('balons')
+  print("Noņemam no dictionary rindu")
+  print(d)
+elif a == b:
+  print("Atstajam rindas ka ir")
+  print(d)
