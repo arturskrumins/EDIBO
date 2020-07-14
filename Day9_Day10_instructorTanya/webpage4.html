@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+ 
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2",
+	title:{
+		text: "Naftas cena barelā"
+	},
+	axisY:{ title: "Dolāri",
+		includeZero: false
+	},
+	data: [{        
+		type: "line",
+      	indexLabelFontSize: 16,
+		dataPoints: [
+			{x: new Date(2017,6,24), y: 450*Math.random() },
+			{x: new Date(2018,1,24), y: 414*Math.random() },
+		<!--	{ y: 520, indexLabel: "\u2191 highest",markerColor: "red", markerType: "triangle" },-->
+			{x: new Date(2018,4,24), y: 460*Math.random() },
+			{x: new Date(2018,6,24), y: 450*Math.random()  },
+			{x: new Date(2018,9,24), y: 500*Math.random()  },
+			{x: new Date(2019,2,24), y: 480*Math.random()  },
+			{x: new Date(2019,8,24), y: 480*Math.random()  },
+		<!--	{ y: 410 , indexLabel: "\u2193 lowest",markerColor: "DarkSlateGrey", markerType: "cross" },-->
+			{x: new Date(2020,1,24), y: 500*Math.random()  },
+			{x: new Date(2020,2,24), y: 480 },
+			{x: new Date(2020,3,24), y: 510 }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<a href="file:///home/user/EDIBO/EDIBO/Day9_Day10_instructorTanya/webpage.html" class="button">Go back</a>
+<a href="file:///home/user/EDIBO/EDIBO/Day9_Day10_instructorTanya/webpage4.html" class="button">Randomizēt grafiku</a>
+</body>
+</html>
