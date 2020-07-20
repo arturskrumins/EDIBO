@@ -51,6 +51,11 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
+import { CurrencyComponent } from './currency/currency.component';
+import { ProfileService} from './profile.service';
+
+import{ DataService} from './data.service';
+import{CurrencyModule} from './currency/currency.module'
 
 
 @NgModule({
@@ -58,7 +63,8 @@ import {MatTreeModule} from '@angular/material/tree';
     AppComponent,
     ButtonComponent,
     HeroDetailComponent,
-    RadiobuttonComponent
+    RadiobuttonComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -108,9 +114,14 @@ import {MatTreeModule} from '@angular/material/tree';
       MatTooltipModule,
       MatTreeModule,
       PortalModule,
-      ScrollingModule
+      ScrollingModule,
+      BrowserModule,
+      AppRoutingModule,
+      CurrencyModule
   ],
   providers: [
+    ProfileService,
+    DataService,
 
   ],
   bootstrap: [AppComponent]
