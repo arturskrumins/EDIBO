@@ -51,11 +51,11 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
-import { CurrencyComponent } from './currency/currency.component';
-import { ProfileService} from './profile.service';
-
 import{ DataService} from './data.service';
+import { ProfileService} from './profile.service';
 import{CurrencyModule} from './currency/currency.module'
+import{WeatherModule} from './weather/weather.module'
+
 
 
 @NgModule({
@@ -63,14 +63,16 @@ import{CurrencyModule} from './currency/currency.module'
     AppComponent,
     ButtonComponent,
     HeroDetailComponent,
-    RadiobuttonComponent,
-    
+    RadiobuttonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatProgressSpinnerModule,
+    AppRoutingModule,
+    CurrencyModule,
+    WeatherModule,
 
       A11yModule,
       ClipboardModule,
@@ -114,10 +116,7 @@ import{CurrencyModule} from './currency/currency.module'
       MatTooltipModule,
       MatTreeModule,
       PortalModule,
-      ScrollingModule,
-      BrowserModule,
-      AppRoutingModule,
-      CurrencyModule
+      ScrollingModule
   ],
   providers: [
     ProfileService,
