@@ -1,5 +1,5 @@
 # EDIBO
-EDIBIO projekta elektroniskā klade
+## EDIBIO projekta elektroniskā klade
 
 
 [Formatēšanas piemēri githubā](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
@@ -16,4 +16,6 @@ EDIBIO projekta elektroniskā klade
 [Čarti un figūras biznesa vidē](https://bpmn.io/)
 
 [Javascript diagrammas](https://gojs.net/)
+
+[###Sakai portāls](https://tsugi.sakai.lv/portal)
 
