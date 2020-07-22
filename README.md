@@ -1,16 +1,13 @@
 # EDIBO
 EDIBIO projekta elektroniskā klade
 
-Mans pirmais ieraksts
 
 [Formatēšanas piemēri githubā](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
+[Githubs iesācējiem](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+[Brach veidošana upload/download](https://guides.github.com/activities/hello-world/)
+[Git bash pamati](https://guides.github.com/introduction/git-handbook/)
+[Pitona pamatkurss](https://www.py4e.com/)
 
-Bold	** ** or __ __	command/control + b	**This is bold text**	This is bold text
+[Čarti un figūras biznesa vidē](https://bpmn.io/)
+[Javascript diagrammas](https://gojs.net/)
 
-Italic	* * or _ _	command/control + i	*This text is italicized*	This text is italicized
-
-Strikethrough	~~ ~~		~~This was mistaken text~~	This was mistaken text
-
-Bold and nested italic	** ** and _ _		**This text is _extremely_ important**	This text is extremely important
-
-All bold and italic	*** ***		***All this text is important***	All this text is important
