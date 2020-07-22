@@ -12,10 +12,13 @@
 
 [Pitona pamatkurss](https://www.py4e.com/)
 
+[Angular pamati](https://angular.io/start)
 
 [Čarti un figūras biznesa vidē](https://bpmn.io/)
 
 [Javascript diagrammas](https://gojs.net/)
 
-[###Sakai portāls](https://tsugi.sakai.lv/portal)
+[Sakai portāls](https://tsugi.sakai.lv/portal)
 
+- [ ] Padarboties ar Blender 
+- [x] Python cikli un darbības
