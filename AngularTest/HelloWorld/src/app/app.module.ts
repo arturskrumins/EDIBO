@@ -51,10 +51,10 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
-import{ DataService} from './data.service';
-import { ProfileService} from './profile.service';
-import{CurrencyModule} from './currency/currency.module'
-import{WeatherModule} from './weather/weather.module'
+import{CurrencyModule} from './currency/currency.module';
+import{WeatherModule} from './weather/weather.module';
+import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
+import { ProfileReactiveComponent } from './profile-reactive/profile-reactive.component';
 
 
 
@@ -63,16 +63,19 @@ import{WeatherModule} from './weather/weather.module'
     AppComponent,
     ButtonComponent,
     HeroDetailComponent,
-    RadiobuttonComponent
+    RadiobuttonComponent,
+    ProfileReactiveComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatProgressSpinnerModule,
-    AppRoutingModule,
     CurrencyModule,
     WeatherModule,
+    FormsModule,
+    ReactiveFormsModule,
+    
 
       A11yModule,
       ClipboardModule,
@@ -119,8 +122,6 @@ import{WeatherModule} from './weather/weather.module'
       ScrollingModule
   ],
   providers: [
-    ProfileService,
-    DataService,
 
   ],
   bootstrap: [AppComponent]

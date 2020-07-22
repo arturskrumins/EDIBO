@@ -1,3 +1,8 @@
+#!/bin/bash
+#1. try/catch/finally ...
+#https://gist.github.com/YakDriver/d5285a1d6f0f7b595240f508665e856d
+
+#2. if ...
 cd ~
 #npm -v
 export NVM_DIR="$HOME/.nvm" && (
@@ -12,6 +17,10 @@ nvm i 12
 echo "export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm" >> .bash_profile
 . ~/.bash_profile
+
+echo "export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm" >> .bashrc
+. ~/.bashrc
 
 npm i -g @angular/cli
 mv EDIBO/AngularTest/HelloWorld EDIBO/AngularTest/HelloWorldLegacy

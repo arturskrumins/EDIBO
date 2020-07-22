@@ -1,10 +1,33 @@
-<h1>Hello sds</h1>
+<!-- <h1>Hello sds</h1> -->
 
-<mat-spinner></mat-spinner>
+<!-- <mat-spinner></mat-spinner> -->
 
-<!-- <app-button></app-button> -->
-
-<!-- <app-hero-detail></app-hero-detail>
-<app-radiobutton></app-radiobutton> -->
+<!-- <app-button></app-button>
+<app-button></app-button>
+<app-button></app-button> -->
+<!-- <app-hero-detail></app-hero-detail> -->
+<!-- <app-radiobutton></app-radiobutton> -->
 <!-- <app-currency></app-currency> -->
-<app-weather></app-weather>
+<!-- <div class="w3-card-4" style="width:50%"
+><app-weather></app-weather></div> -->
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a routerLink="weather"><i class="fa fa-fw fa-search"></i> Weather</a>
+  <a routerLink="currency"><i class="fa fa-fw fa-envelope"></i> Currency</a>
+  <a routerLink="radiobutton"><i class="fa fa-fw fa-user"></i> TVNET</a>
+  <a routerLink="profile-reactive"><i class="fa fa-fw fa-user"></i> Profile</a>
+</div>
+<app-hero-detail></app-hero-detail>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,16 @@
+<p>profile-reactive works!</p>
+
+<app-laikapoga (klikinaats)="person.get('name').setValue('')" [vaards]="person.value.name"></app-laikapoga>
+
+<form [formGroup]="person">
+
+    <app-ievade label="Vārds" type="text" [control]="person.get('name')"></app-ievade>
+    <app-ievade label="Uzvards" type="text" [control]="person.get('surname')"></app-ievade>
+    <app-ievade label="Epasts" type="email" [control]="person.get('email')"></app-ievade>
+
+    <button type="submit" 
+            [disabled]="person.invalid"
+            class="btn btn-block btn-primary" 
+            (click)="submitForm()">ir?</button>
+</form>
+<pre>{{person.value|json}}</pre>
