@@ -4,3 +4,9 @@ https://guides.github.com/introduction/git-handbook/
 https://www.py4e.com/
 https://bpmn.io/  -- biznesa charti
 https://gojs.net/   --grafiki typscript javascript utt.
+
+angularam
+npm uninstall -g @angular/cli
+ npm cache verify
+ npm install -g @angular/cli@next
+ npm update
