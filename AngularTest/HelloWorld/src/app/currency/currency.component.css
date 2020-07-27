@@ -3,3 +3,15 @@
 table {
     width: 100%;
   }
+
+  .image{
+    height:100%; 
+   
+    background-size:cover;
+    width:auto;
+    background-image:url('https://storage.needpix.com/rsynced_images/background-4232859_1280.png');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+  }
+  
+  

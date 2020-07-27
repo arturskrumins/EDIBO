@@ -23,10 +23,8 @@ echo "export NVM_DIR="$HOME/.nvm"
 . ~/.bashrc
 
 npm i -g @angular/cli
-mv EDIBO/AngularTest/HelloWorld EDIBO/AngularTest/HelloWorldLegacy
 cd EDIBO/AngularTest
 ng new HelloWorld
 cd HelloWorld
 ng add @angular/material
-cp -r ../HelloWorldLegacy/* ./
 code .

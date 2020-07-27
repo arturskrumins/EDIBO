@@ -5,6 +5,7 @@ import { WeatherComponent } from './weather/weather.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { ProfileReactiveComponent } from './profile-reactive/profile-reactive.component';
+// import {ButtonComponent} from './botton/botton.component';
 
 
 
@@ -17,7 +18,7 @@ const routes: Routes = [
   { path: 'currency', component: CurrencyComponent },
   { path: 'radiobutton', component: RadiobuttonComponent},
   { path: 'profile-reactive', component: ProfileReactiveComponent, },
-  
+  // { path: 'button', component: ButtonComponent, },
   
   
   // { path: '', pathMatch: 'full', redirectTo: 'profile' },
