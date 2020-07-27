@@ -1,0 +1,105 @@
+
+
+// an ignored comment
+/** not an ignored comment */
+
+
+
+
+/**
+ * Task entity.
+ * @author The JHipster team.
+ */
+
+
+//entity Employee {
+	
+	//The firstname attribute.
+	
+	//firstName String,
+	//lastName String,
+	//email String,
+	//phoneNumber String,
+	//hireDate Instant,
+	//salary Long,
+	//commissionPct Long
+//}
+
+
+entity Post {
+    title String,
+	context Textblob
+	//endDate Instant,
+	//language Language
+}
+
+entity Tag {
+    name String,
+	//endDate Instant,
+	//language Language
+}
+
+entity User {
+     name String,
+     age Number,
+   
+	//endDate Instant,
+	//language Language
+}
+
+
+
+
+entity Blog {
+	name String,
+    hande String,
+}
+
+
+
+relationship ManyToOne {
+	Post to Tag
+}
+
+
+
+
+
+relationship OneToOne {
+	Post{context} to Blog
+}
+
+
+relationship OneToOne {
+	Blog{region} to User
+}
+
+
+
+
+
+
+// defining multiple OneToMany relationships with comments
+
+
+
+
+// defining multiple oneToOne relationships
+//relationship OneToOne {
+	//JobHistory{job} to Job,
+	//JobHistory{department} to Department,
+	//JobHistory{employee} to Employee
+//}
+
+// Set pagination options
+//paginate JobHistory, Employee with infinite-scroll
+//paginate Job with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+//service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
