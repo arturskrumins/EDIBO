@@ -20,5 +20,8 @@
 
 [Sakai portāls](https://tsugi.sakai.lv/portal)
 
+[aspnet.core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-3.1&tabs=visual-studio-code)
+
+
 - [ ] Padarboties ar Blender 
 - [x] Python cikli un darbības
