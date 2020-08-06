@@ -1,6 +1,7 @@
 # EDIBO
 ## EDIBIO projekta elektroniskā klade
 
+TODO: kaut kāda iemesla pēc clonojot no githuba ir problemas - nu labi ielikšu angular projektu Test repo.
 
 [Formatēšanas piemēri githubā](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
