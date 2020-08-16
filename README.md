@@ -3,7 +3,7 @@
 
 [Projekts datubāzes mysql bāzes attēlošanai ar php](https://github.com/arturskrumins/Scandiwebb)
 
-[Hero project uz Angular bāzes](https://sleepy-rosalind-9434b9.netlify.app/dashboard)
+[Hero project uz Angular bāzes](https://sleepy-rosalind-9434b9.netlify.app/)
 
 
 TODO: kaut kāda iemesla pēc clonojot no githuba ir problemas - nu labi ielikšu angular projektu Test repo. - Izlabots.Check
