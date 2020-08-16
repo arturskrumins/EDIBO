@@ -1,6 +1,9 @@
 # EDIBO
 ## EDIBIO projekta elektroniskā klade
 
+[Projekts datubāzes mysql bāzes attēlošanai ar php](https://github.com/arturskrumins/Scandiwebb)
+
+
 TODO: kaut kāda iemesla pēc clonojot no githuba ir problemas - nu labi ielikšu angular projektu Test repo. - Izlabots.Check
 
 [Formatēšanas piemēri githubā](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
